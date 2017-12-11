@@ -34,6 +34,7 @@ body {
 	color: #000;
 	line-height: 1.5;
 	font-family: 'Open Sans', sans-serif;
+	background-color: #f0efef;
 }
 
 
@@ -52,10 +53,39 @@ body {
 /* ADDITIONAL STYLES
 /*******************************************/
 
+header {
+	background-color: #033048;
+	width: 100%;
+	padding: 20px 0;
+}
+
+
+nav {
+	float: right;
+	
+}
+
+
+.nav-links {
+	text-decoration: none;
+	color: #f9e42e;
+	font-weight: 600;
+}
+
+nav li {
+	display: inline-block;
+	color: #f9e42e;
+	padding: 5px; 
+	margin-top: 15px;
+	list-style-type: none;
+
+}
+
+
 .intro {
 	background: url("../images/header_bg.jpg") no-repeat center top rgb(134,141,157);
 	background-size: cover;
-	padding-bottom: 200px;
+	padding: 160px 0;
 	text-align: center;
 }
 
@@ -65,15 +95,27 @@ h1 {
 	color: #fff;
 	font-weight: 900;
 	text-align: left;
-	padding-top: 30px;
+	display: inline;
 }
 
-h2 {
+h1 a {
+	color: #ffffff;
+}
+
+.intro h2 {
 	font-size: 30px;
 	color: #fff;
 	font-weight: 500;
 	text-align: center;
 	padding: 50px 0;
+}
+
+h2 {
+	font-size: 30px;
+	color: #033048;
+	font-weight: 500;
+	text-align: left;
+	padding: 30px 0;
 }
 
 .button-one {
@@ -82,7 +124,33 @@ h2 {
 	color: #121212;
 	border-radius: 5px;
 	border: none;
-	font-weight: 900;
+	font-weight: 700;
+}
+
+
+.article {
+	display: inline-block;
+	width: 70%;
+	padding: 20px 20px 40px;
+	margin-bottom: 50px;
+}
+
+.article span {
+	border-bottom: 1px solid #033048;
+	padding: 30px 0;
+	width: 100%;
+	float: right;
+	text-align: right;
+	margin-bottom: 20px;
+	font-weight: bold;
+}
+
+.article p {
+	padding: 0;
+}
+
+.article a {
+	color: #033048;
 }
 
 h3 {
@@ -92,8 +160,42 @@ h3 {
 	text-align: left;
 }
 
+.side-coloumn {
+	float: right;
+	display: inline-block;
+	width: 30%;
+	clear: right;
+	padding: 55px 50px 0 10px;
+	font-size: 16px;
+
+}
+
+.side-coloumn h3 {
+	font-size: 18px;
+	font-weight: bold;
+}
+
+.side-coloumn ul {
+	list-style: none;
+	padding-left: 0;
+	color: #033048;
+	margin: 10px 0 40px;
+
+}
+
+.side-coloumn p {
+	margin: 10px 0 40px;
+	padding: 0;
+	font-size: 16px;
+}
+
+.side-coloumn a {
+	display: block;
+	font-weight: bold;
+	color: #033048;
+}
+
 h4 {
-	font-size: 40px;
 	color: #fff;
 	font-weight: 100;
 	font-style: italic;
@@ -118,6 +220,22 @@ p {
 	color: #606161;
 	font-weight: light;
 	padding: 30px 0;
+	line-height: 1.4;
+}
+
+
+.article p:first-letter {
+    font-size: 50px;
+    font-weight: 500;
+    float: left;
+    padding: 0 10px 5px 0;
+    margin-top: 6px;
+    line-height: 38px;
+
+}
+
+img {
+	padding-bottom: 20px;
 }
 
 ul {
@@ -127,16 +245,15 @@ ul {
     color: #606161;
 }
 
-span {
+.quote-credit {
 	display: block;
-	font-weight: 900;
+	font-weight: 700;
 	text-align: center;
 	color: #fff;
 	font-size: 27px;
 }
 
 .benefits {
-	background-color: #f0efef;
 	width: 100%;
 	padding: 100px;
 }
@@ -163,8 +280,7 @@ span {
 	color: #fff;
 	border-radius: 5px;
 	border: none;
-	font-weight: 900;
-	text-decoration: none;
+	font-weight: 700;
 	margin: 0 auto;
 }
 
@@ -184,11 +300,7 @@ span {
 	display: inline-block;
 	padding: 10px 20px;
 }
-a link {
-	font-weight: 900;
-	text-decoration: none;
 
-}
 
 h6 {
 	font-size: 10px;
@@ -196,4 +308,32 @@ h6 {
 	font-weight: lighter;
 	text-align: center;
 	padding: 30px 0;
+}
+
+a:link {
+    text-decoration: none;
+    color: #033048;
+}
+
+a.nav-links:hover  {
+    color: #ffffff;
+}
+
+a.button-one:hover  {
+    color: #ffffff;
+    background-color: #033048;
+}
+
+
+a.button-two:hover  {
+    color: #033048;
+    background-color: #ffffff;
+}
+
+.article a:hover  {
+    text-decoration: underline;
+}
+
+.side-coloumn a:hover  {
+    text-decoration: underline;
 }
