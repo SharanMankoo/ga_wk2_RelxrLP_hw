@@ -55,6 +55,7 @@ body {
 
 header {
 	background-color: #033048;
+	color: #fff;
 	width: 100%;
 	padding: 20px 0;
 }
@@ -65,12 +66,13 @@ nav {
 	
 }
 
-
 .nav-links {
 	text-decoration: none;
 	color: #f9e42e;
 	font-weight: 600;
 }
+
+
 
 nav li {
 	display: inline-block;
@@ -313,7 +315,6 @@ h6 {
 
 a:link {
     text-decoration: none;
-    color: #033048;
 }
 
 a.nav-links:hover  {
