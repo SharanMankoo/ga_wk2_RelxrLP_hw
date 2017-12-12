@@ -74,10 +74,11 @@ nav {
 
 nav li {
 	display: inline-block;
-	color: #f9e42e;
+	color: #fff;
 	padding: 5px; 
 	margin-top: 15px;
 	list-style-type: none;
+	font-weight: 600;
 
 }
 
@@ -337,3 +338,4 @@ a.button-two:hover  {
 .side-coloumn a:hover  {
     text-decoration: underline;
 }
+
